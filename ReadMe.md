@@ -10,9 +10,11 @@ conda activate yolotracking
 pip install --upgrade pip # 升级pip库管理工具
 
 pip install -r requirements.txt -i https://pypi.doubanio.com/simple #安装环境库
-pip install torch --no-cache-dir
+#如果torch安装失败
+#pip install torch --no-cache-dir
 
 ```
+下载预训练模型[yolov7](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)到文件根目录
 
 ## 运行
 
